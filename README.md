@@ -4,16 +4,16 @@ DC motor speed control using PID in MATLAB Public:
 
 This project simulates DC motor speed control using a PID controller in MATLAB.
 
-The motor is tested with a load torque applied at 5 seconds. The PID controller tries to keep the motor speed at 15 RPM.
+The target speed is 15 RPM. At 5 seconds, a 2 Nm load torque is applied to the motor to test how the PID controller handles the disturbance and brings the speed back to the target.
 
 The simulation calculates:
-- Final RPM
-- Steady-state error
-- Maximum RPM
-- Overshoot
-- Settling time
-- Rise time
 
-The results are shown in the MATLAB graphs above.
-:::
+Final RPM
+Steady-state error
+Maximum RPM
+Overshoot
+Settling time
+Rise time
+
+The results are shown in the MATLAB graph above.
 
